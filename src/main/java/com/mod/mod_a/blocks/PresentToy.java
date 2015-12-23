@@ -25,7 +25,7 @@ public class PresentToy extends Block{
 	@Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
-		int v = rand.nextInt(6);
+		int v = rand.nextInt(7);
 		switch (v){
 		case 0: return Item.getItemFromBlock(ModABlocks.herobrine_figure);
 		case 1: return Item.getItemFromBlock(ModABlocks.notch_figure);
@@ -33,6 +33,7 @@ public class PresentToy extends Block{
 		case 3: return Item.getItemFromBlock(ModABlocks.alex_figure);
 		case 4: return Item.getItemFromBlock(ModABlocks.zombie_figure);
 		case 5: return Item.getItemFromBlock(ModABlocks.santa_figure);
+		case 6: return Item.getItemFromBlock(ModABlocks.creeper_figure);
 		}
 		return null;
 }
