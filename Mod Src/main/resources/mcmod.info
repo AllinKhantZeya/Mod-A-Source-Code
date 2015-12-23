@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mod_a",
+  "name": "Mod A",
+  "description": "This mod adds dark tools, armors, items, and blocks. Along with cheese sandwiches. The mod also adds in various special items, which can be obtained by using the Dark Table.",
+  "version": "Minecraft 1.8",
+  "mcversion": "1.8",
+  "url": "http://www.planetminecraft.com/mod/mod-a/",
+  "updateUrl": "",
+  "authorList": ["allinkhantzeya"],
+  "credits": "Various amazing people.",
+  "logoFile": "mod_a_logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

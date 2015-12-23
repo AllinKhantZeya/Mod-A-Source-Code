@@ -1,0 +1,5 @@
+{
+    "records.deck": {"category": "record", "sounds": [{"name": "records/deck","stream": true }]},
+    "records.jingle_bells": {"category": "record", "sounds": [{"name": "records/jingle_bells","stream": true }]},
+    "records.wish": {"category": "record", "sounds": [{"name": "records/wish","stream": true }]}
+}

@@ -1,0 +1,163 @@
+<Ini adalah fail Bahasa Melayu untuk Mod A>
+<Benda-Benda Gelap>
+item.dark_item.name=Perkara Gelap
+item.sliced_bread.name=Roti Dihiris 
+item.dark_ingot.name=Jongkong Gelap
+item.dark_and_ender.name=Baldi dengan Perkara Gelap dan Mutiara Ender
+item.dark_rod.name=Rod Gelap
+item.dark_substance_bucket.name=Baldi dengan Bahan Gelap
+item.dark_ingot_bucket.name=Baldi dengan Jongkong Gelap
+
+<Misc>
+itemGroup.tabModA=§4Mod A
+mod_a.message.welcome=Menikmati versi 1.1 dari Mod A.
+mod_a.message.dark.table.generate=anda mendapat
+mod_a.message.plural.grammar=
+mod_a.message.dark.table.warning.1=Tiada apa-apa hendaklah di atas Meja Gelap tetapi udara.
+mod_a.message.warning.need=Anda perlu
+mod_a.message.warning.need.vowel=Anda perlu
+mod_a.message.ingot=jongkong
+mod_a.message.item.not_working=Benda ini tidak berfungsi.
+
+<Peralatan Gelap>
+item.dark_axe.name=Kapak Gelap
+item.dark_hoe.name=Cangkul Gelap
+item.dark_sword.name=Pedang Gelap
+item.dark_shovel.name=Penyodok Gelap
+item.dark_pickaxe.name=Beliung Gelap
+
+<Blok-Blok Gelap>
+tile.dark_block.name=Blok Gelap
+tile.dark_table.name=Meja Gelap
+
+<Sandwic>
+item.toast.name=Roti Bakar
+item.cheese.name=Keju
+item.cheese_slice.name=Keju Dihiris
+item.cheese_sandwich.name=Sandwic Keju
+item.toast_cheese_sandwich.name=Sandwic Bakar dengan Keju
+item.grilled_cheese.name=Sandwic Keju Panggang
+
+<Perisai Gelap>
+item.dark_helmet.name=Topi Keladar Gelap
+item.dark_chestplate.name=Perisai Dada Gelap
+item.dark_leggings.name=Perisai Kaki Gelap
+item.dark_boots.name=But Gelap
+
+<Tawaran Khas>
+item.smiley_face.name=Muka Bahagia 
+item.vampiric_sword.name=Pedang Vampiric
+item.fedora.name=Fedora
+item.heart.name=Jantung
+item.lightning_rod.name=Rod Kilat
+item.information_retriever.name=Retriever Maklumat
+item.insta_house.name=Rumah Serta-Merta 1
+item.ice_boots.name=But Ais
+item.ice_staff.name=Tongkat Ais
+item.chat_box.name=Kotak Sembang 3000
+item.invisibility_cloak.name=Jubah yang Tidak Dapat Dilihat 
+item.fire_staff.name=Tongkat Api
+item.fire_jacket.name=Jaket Api
+item.speed_boots.name=But Kelajuan
+item.candy_cane.name=Gula-Gula Tebu
+item.ginger_bread.name=Roti Halia 
+tile.present.name=Hadiah
+item.password_2.name=Kata Laluan
+item.automatic_bolt_blaster.name=Anak Panah Penembak yang Automatik 
+item.encrypted_message.name=Mesej Disulitkan
+item.dark_bane.name=Memeningkan Kepala yang Gelap
+item.venom_sword.name=Pendang Racun
+item.hand_cannon.name=Meriam Tangan
+item.undeads_bane.name=Memningkan Kepala untuk Mayat Hidup
+item.teleportation_rod.name=Rod Teleportation
+item.cutlass.name=Pedang Pendek
+item.aquatic_helmet.name=Topi Keladar yang Akuatik
+item.turkey_leg.name=Kaki Ayam Belanda
+tile.present_toy.name=Hadiah Mainan
+item.cola.name=Cola
+item.ender_punch.name=Punch Ender
+item.core.name=Teras Jongkong Pembuat
+item.dragon_soul.name=Jiwa Naga
+item.wither_soul.name=Jiwa Wither
+tile.dragon_ingot_maker.name=Jongkong Naga Pembuat
+tile.wither_ingot_maker.name=Jongkonh Wither Pembuat
+item.glasses.name=Cermin Mata
+item.shades.name=Kaca Mata Hitam
+item.mob_lifter.name=Mob Pengangkat
+item.insta_house_2.name=Rumah Serta-Merta 2
+tile.cave_game_cobblestone.name=Batu Buntar Permainan Gua  
+tile.cave_game_dirt.name=Tanah Permainan Gua
+item.insta_house_3.name=Rumah Serta-Merta 3
+item.insta_house_3.desc=Tempat Berteduh Nostalgia
+
+<Bentuk-Bentuk>
+tile.herobrine_figure.name=Bentuk Herobrine
+tile.santa_figure.name=Bentuk Santa
+tile.steve_figure.name=Bentuk Steve
+tile.notch_figure.name=Bentuk Notch
+tile.alex_figure.name=Bentuk Alex
+tile.zombie_figure.name=Bentuk Zombie
+tile.creeper_figure.name=Bentuk Creeper
+
+<Cakera-Cakera>
+item.deck.name=Cakera Krismas
+item.record.deck.desc=Deck The Halls
+item.jingle_bells.name=Cakera Krismas
+item.record.jingle_bells.desc=Jingle Bells
+item.wish.name=Cakera Krismas
+item.record.wish.desc=We Wish You a Merry Christmas
+
+<Set Satria>
+item.knight_sword.name=Pedang Satria 
+item.knight_helmet.name=Topi Keladar Satria
+item.knight_chestplate.name=Perisai Dada Satria
+item.knight_leggings.name=Perisai Kaki Satria
+item.knight_boots.name=But Satria
+
+<Set Perayaan>
+item.festive_coat.name=Kot Perayaan
+item.festive_pants.name=Seluar Perayaan
+item.festive_boots.name=But Perayaan
+
+<Set Malaikat Maut>
+item.schyte.name=Schyte
+item.reaper_hood.name=Tudung Malaikat Maut 
+item.reaper_robes_up.name=Jubah Malaikat Maut yang Atas
+item.reaper_robes_down.name=Jubah Malaikat Maut yang Lebih Rendah
+item.reaper_boots.name=But Malaikat Maut 
+
+<Set Jiwa>
+item.soul.name=Soul
+item.soul_sword.name=Pedang Jiwa
+item.soul_pickaxe.name=Beliung Jiwa
+item.soul_shovel.name=Penyodok Jiwa
+item.soul_axe.name=Kapak Jiwa
+item.soul_hoe.name=Cangkul Jiwa
+item.soul_helmet.name=Topi Keladar Jiwa
+item.soul_chestplate.name=Perisai Dada Jiwa
+item.soul_leggings.name=Perisai Kaki Jiwa
+item.soul_boots.name=But Jiwa
+
+<Set Naga>
+item.dragon_ingot.name=Jongkong Naga
+item.dragon_sword.name=Pedang Naga
+item.dragon_axe.name=Kapak Naga
+item.dragon_pickaxe.name=Beliung Naga
+item.dragon_shovel.name=Penyodok Shovel
+item.dragon_hoe.name=Cangkul Naga
+item.dragon_helmet.name=Topi Keladar Naga
+item.dragon_chestplate.name=Perisai Dada Naga
+item.dragon_leggings.name=Perisai Kaki Naga
+item.dragon_boots.name=But Naga
+
+<Set Wither>
+item.wither_ingot.name=Jongkong Wither
+item.wither_sword.name=Pedang Wither
+item.wither_shovel.name=Penyodok Wither
+item.wither_pickaxe.name=Beliung Wither
+item.wither_axe.name=Kapak Wither
+item.wither_hoe.name=Cangkul Wither
+item.wither_helmet.name=Topi Keladar Wither
+item.wither_chestplate.name=Perisai Dada Wither
+item.wither_leggings.name=Perisai Kaki Wither
+item.wither_boots.name=But Wither

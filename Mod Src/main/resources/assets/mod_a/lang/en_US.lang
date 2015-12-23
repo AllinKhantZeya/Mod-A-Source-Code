@@ -1,0 +1,163 @@
+<This is the English Language File for Mod A>
+<Dark Items>
+item.dark_item.name=Dark Item
+item.sliced_bread.name=Sliced Bread
+item.dark_ingot.name=Dark Ingot
+item.dark_and_ender.name=Bucket with Dark Item and Ender Pearl
+item.dark_rod.name=Dark Rod
+item.dark_substance_bucket.name=Dark Substance Bucket
+item.dark_ingot_bucket.name=Bucket with Dark Ingot
+
+<Misc>
+itemGroup.tabModA=§4Mod A
+mod_a.message.welcome=Enjoy Version 1.1 of Mod A.
+mod_a.message.dark.table.generate=you got
+mod_a.message.plural.grammar=s
+mod_a.message.dark.table.warning.1=There must be nothing but air on the Dark Table.
+mod_a.message.warning.need=You need a
+mod_a.message.warning.need.vowel=You need an
+mod_a.message.ingot=ingot
+mod_a.message.item.not_working=This item does not work.
+
+<Dark Tools>
+item.dark_axe.name=Dark Axe
+item.dark_hoe.name=Dark Hoe
+item.dark_sword.name=Dark Sword
+item.dark_shovel.name=Dark Shovel
+item.dark_pickaxe.name=Dark Pickaxe
+
+<Dark Blocks>
+tile.dark_block.name=Dark Block
+tile.dark_table.name=Dark Table
+
+<Sandwich>
+item.toast.name=Toast
+item.cheese.name=Cheese
+item.cheese_slice.name=Cheese Slice
+item.cheese_sandwich.name=Cheese Sandwich
+item.toast_cheese_sandwich.name=Toast Cheese Sandwich
+item.grilled_cheese.name=Grilled Cheese
+
+<Dark Armour>
+item.dark_helmet.name=Dark Helmet
+item.dark_chestplate.name=Dark Chestplate
+item.dark_leggings.name=Dark Leggings
+item.dark_boots.name=Dark Boots
+
+<Specials>
+item.smiley_face.name=Smiley Face
+item.vampiric_sword.name=Vampiric Sword
+item.fedora.name=Fedora
+item.heart.name=Heart
+item.lightning_rod.name=Lightning Rod
+item.information_retriever.name=Information Retriever
+item.insta_house.name=Insta-House
+item.ice_boots.name=Ice Boots
+item.ice_staff.name=Ice Staff
+item.chat_box.name=Chat Box 3000
+item.invisibility_cloak.name=Invisibility Cloak
+item.fire_staff.name=Fire Staff
+item.fire_jacket.name=Fire Jacket
+item.speed_boots.name=Speed Boots
+item.candy_cane.name=Candy Cane
+item.ginger_bread.name=Ginger Bread
+tile.present.name=Present
+item.password_2.name=Password
+item.automatic_bolt_blaster.name=Automatic Bolt Blaster
+item.encrypted_message.name=Encrypted Message
+item.dark_bane.name=Dark Bane
+item.venom_sword.name=Venom Sword
+item.hand_cannon.name=Hand Cannon
+item.undeads_bane.name=Undead's Bane
+item.teleportation_rod.name=Teleportation Rod
+item.cutlass.name=Cutlass
+item.aquatic_helmet.name=Aquatic Helmet
+item.turkey_leg.name=Turkey Leg
+tile.present_toy.name=Toy Present
+item.cola.name=Cola
+item.ender_punch.name=Ender Punch
+item.core.name=Ingot Maker Core
+item.dragon_soul.name=Dragon Soul
+item.wither_soul.name=Wither Soul
+tile.dragon_ingot_maker.name=Dragon Ingot Maker
+tile.wither_ingot_maker.name=Wither Ingot Maker
+item.glasses.name=Glasses
+item.shades.name=Shades
+item.mob_lifter.name=Mob Lifter
+item.insta_house_2.name=Insta-House 2
+tile.cave_game_cobblestone.name=Cave Game Cobblestone
+tile.cave_game_dirt.name=Cave Game Dirt
+item.insta_house_3.name=Insta-House 3
+item.insta_house_3.desc=Nostalgia Shelter
+
+<Figures>
+tile.herobrine_figure.name=Herobrine Figure
+tile.santa_figure.name=Santa Figure
+tile.steve_figure.name=Steve Figure
+tile.notch_figure.name=Notch Figure
+tile.alex_figure.name=Alex Figure
+tile.zombie_figure.name=Zombie Figure
+tile.creeper_figure.name=Creeper Figure
+
+<Records>
+item.deck.name=Christmas Disc
+item.record.deck.desc=Deck The Halls
+item.jingle_bells.name=Christmas Disc
+item.record.jingle_bells.desc=Jingle Bells
+item.wish.name=Christmas Disc
+item.record.wish.desc=We Wish You a Merry Christmas
+
+<Knight Set>
+item.knight_sword.name=Knight's Sword
+item.knight_helmet.name=Knight Helmet
+item.knight_chestplate.name=Knight Chestplate
+item.knight_leggings.name=Knight Leggings
+item.knight_boots.name=Knight Boots
+
+<Festive Set>
+item.festive_coat.name=Festive Coat
+item.festive_pants.name=Festive Pants
+item.festive_boots.name=Festive Boots
+
+<Reaper Set>
+item.schyte.name=Schyte
+item.reaper_hood.name=Reaper Hood
+item.reaper_robes_up.name=Upper Reaper Robes
+item.reaper_robes_down.name=Lower Reaper Robes
+item.reaper_boots.name=Reaper Boots
+
+<Soul Set>
+item.soul.name=Soul
+item.soul_sword.name=Soul Sword
+item.soul_pickaxe.name=Soul Pickaxe
+item.soul_shovel.name=Soul Shovel
+item.soul_axe.name=Soul Axe
+item.soul_hoe.name=Soul Hoe
+item.soul_helmet.name=Soul Helmet
+item.soul_chestplate.name=Soul Chestplate
+item.soul_leggings.name=Soul Leggings
+item.soul_boots.name=Soul Boots
+
+<Dragon Set>
+item.dragon_ingot.name=Dragon Ingot
+item.dragon_sword.name=Dragon Sword
+item.dragon_axe.name=Dragon Axe
+item.dragon_pickaxe.name=Dragon Pickaxe
+item.dragon_shovel.name=Dragon Shovel
+item.dragon_hoe.name=Dragon Hoe
+item.dragon_helmet.name=Dragon Helmet
+item.dragon_chestplate.name=Dragon Chestplate
+item.dragon_leggings.name=Dragon Leggings
+item.dragon_boots.name=Dragon Boots
+
+<Wither Set>
+item.wither_ingot.name=Wither Ingot
+item.wither_sword.name=Wither Sword
+item.wither_shovel.name=Wither Shovel
+item.wither_pickaxe.name=Wither Pickaxe
+item.wither_axe.name=Wither Axe
+item.wither_hoe.name=Wither Hoe
+item.wither_helmet.name=Wither Helmet
+item.wither_chestplate.name=Wither Chestplate
+item.wither_leggings.name=Wither Leggings
+item.wither_boots.name=Wither Boots

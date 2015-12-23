@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "mod_a:items/hand_cannon"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 10, -90, 80 ],
+            "translation": [ -0.5, 1.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+            },
+            "firstperson": {
+            "rotation": [ 0, 20, -15 ],
+            "translation": [ 0, 4, -1 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}
