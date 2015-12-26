@@ -10,7 +10,7 @@ item.dark_ingot_bucket.name=Baldi dengan Jongkong Gelap
 
 <Misc>
 itemGroup.tabModA=§4Mod A
-mod_a.message.welcome=Menikmati versi 1.1 dari Mod A.
+mod_a.message.welcome=Menikmati versi 1.2 dari Mod A.
 mod_a.message.dark.table.generate=anda mendapat
 mod_a.message.plural.grammar=
 mod_a.message.dark.table.warning.1=Tiada apa-apa hendaklah di atas Meja Gelap tetapi udara.
@@ -18,6 +18,7 @@ mod_a.message.warning.need=Anda perlu
 mod_a.message.warning.need.vowel=Anda perlu
 mod_a.message.ingot=jongkong
 mod_a.message.item.not_working=Benda ini tidak berfungsi.
+mod_a.message.book.contributor.header=Orang-orang bagus yang menyumbang kepada Mod A.
 
 <Peralatan Gelap>
 item.dark_axe.name=Kapak Gelap
@@ -89,6 +90,9 @@ tile.cave_game_cobblestone.name=Batu Buntar Permainan Gua
 tile.cave_game_dirt.name=Tanah Permainan Gua
 item.insta_house_3.name=Rumah Serta-Merta 3
 item.insta_house_3.desc=Tempat Berteduh Nostalgia
+item.contributor_book.name=Buku Penyumbang
+item.contributor_book.desc=Penyumbang-penyumbang Mod A.
+item.top_hat.name=Topi Atas
 
 <Bentuk-Bentuk>
 tile.herobrine_figure.name=Bentuk Herobrine

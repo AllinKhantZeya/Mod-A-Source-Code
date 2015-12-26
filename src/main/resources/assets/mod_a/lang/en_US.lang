@@ -10,7 +10,7 @@ item.dark_ingot_bucket.name=Bucket with Dark Ingot
 
 <Misc>
 itemGroup.tabModA=§4Mod A
-mod_a.message.welcome=Enjoy Version 1.1 of Mod A.
+mod_a.message.welcome=Enjoy Version 1.2 of Mod A.
 mod_a.message.dark.table.generate=you got
 mod_a.message.plural.grammar=s
 mod_a.message.dark.table.warning.1=There must be nothing but air on the Dark Table.
@@ -18,6 +18,7 @@ mod_a.message.warning.need=You need a
 mod_a.message.warning.need.vowel=You need an
 mod_a.message.ingot=ingot
 mod_a.message.item.not_working=This item does not work.
+mod_a.message.book.contributor.header=The amazing people who contributed to Mod A.
 
 <Dark Tools>
 item.dark_axe.name=Dark Axe
@@ -89,6 +90,9 @@ tile.cave_game_cobblestone.name=Cave Game Cobblestone
 tile.cave_game_dirt.name=Cave Game Dirt
 item.insta_house_3.name=Insta-House 3
 item.insta_house_3.desc=Nostalgia Shelter
+item.contributor_book.name=Contributor Book
+item.contributor_book.desc=Mod A's contributors.
+item.top_hat.name=Top Hat
 
 <Figures>
 tile.herobrine_figure.name=Herobrine Figure

@@ -6,6 +6,7 @@ import com.mod.mod_a.Items.AquaticHelmet;
 import com.mod.mod_a.Items.AutomaticBoltBlaster;
 import com.mod.mod_a.Items.CandyCane;
 import com.mod.mod_a.Items.ChatBox;
+import com.mod.mod_a.Items.ContributorBook;
 import com.mod.mod_a.Items.Cutlass;
 import com.mod.mod_a.Items.DarkArmor;
 import com.mod.mod_a.Items.DarkAxe;
@@ -46,6 +47,7 @@ import com.mod.mod_a.Items.SmileyFace;
 import com.mod.mod_a.Items.SoulArmor;
 import com.mod.mod_a.Items.SpeedBoots;
 import com.mod.mod_a.Items.TeleportationRod;
+import com.mod.mod_a.Items.TopHat;
 import com.mod.mod_a.Items.TurkeyLeg;
 import com.mod.mod_a.Items.UndeadsBane;
 import com.mod.mod_a.Items.VampiricSword;
@@ -178,6 +180,8 @@ public class ModAItems {
 	public static Item wither_boots;
 	public static Item insta_house_2;
 	public static Item insta_house_3;
+	public static Item contributor_book;
+	public static Item top_hat;
 
 	public static void init() {
 		// Generic Items
@@ -298,8 +302,10 @@ public class ModAItems {
 		wither_chestplate = new WitherArmor(ModAMaterials.WITHER_ARMOR, 0, 1).setUnlocalizedName("wither_chestplate");
 		wither_leggings = new WitherArmor(ModAMaterials.WITHER_ARMOR, 0, 2).setUnlocalizedName("wither_leggings");
 		wither_boots = new WitherArmor(ModAMaterials.WITHER_ARMOR, 0, 3).setUnlocalizedName("wither_boots");
-		insta_house_2 = new InstaHouse2().setUnlocalizedName("insta_house_2").setUnlocalizedName("insta_house_2");
-		insta_house_3 = new InstaHouse3().setUnlocalizedName("insta_house_3").setUnlocalizedName("insta_house_3");
+		insta_house_2 = new InstaHouse2().setUnlocalizedName("insta_house_2");
+		insta_house_3 = new InstaHouse3().setUnlocalizedName("insta_house_3");
+		contributor_book = new ContributorBook().setUnlocalizedName("contributor_book");
+		top_hat = new TopHat(ArmorMaterial.GOLD, 0, 0).setUnlocalizedName("top_hat");
 	}
 
 	public static void register() {
@@ -417,6 +423,8 @@ public class ModAItems {
 		registerItem(wither_boots);
 		registerItem(insta_house_2);
 		registerItem(insta_house_3);
+		registerItem(contributor_book);
+		registerItem(top_hat);
 	}
 
 	public static void registerRenders() {
@@ -534,6 +542,8 @@ public class ModAItems {
 		registerRender(wither_boots);
 		registerRender(insta_house_2);
 		registerRender(insta_house_3);
+		registerRender(contributor_book);
+		registerRender(top_hat);
 	}
 
 	public static void registerRender(Item item) {

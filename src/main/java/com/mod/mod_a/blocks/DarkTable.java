@@ -91,7 +91,7 @@ public class DarkTable extends Block {
 					return false;
 				} else {
 					Random rand = new Random();
-					int i = rand.nextInt(89);
+					int i = rand.nextInt(90);
 					EnumParticleTypes particle = EnumParticleTypes.SMOKE_LARGE;
 					--stack.stackSize;
 					Functions.spawnParticles(worldIn, pos, particle);
@@ -363,6 +363,9 @@ public class DarkTable extends Block {
 						break;
 					case 88:
 						darkTableGenerateBlock(worldIn, ModABlocks.creeper_figure, 1, pos, playerIn);
+						break;
+					case 89:
+						darkTableGenerateItem(worldIn, ModAItems.top_hat, 1, pos, playerIn);
 						break;
 					}
 

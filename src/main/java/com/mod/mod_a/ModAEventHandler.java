@@ -16,6 +16,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
+import net.minecraft.nbt.NBTTagString;
 import net.minecraft.potion.Potion;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.ChatComponentTranslation;
@@ -73,8 +76,15 @@ public class ModAEventHandler {
 	@SubscribeEvent
 	public void playerJoinEvent(EntityJoinWorldEvent event) {
 		String message = "§4§ki" + EnumChatFormatting.DARK_AQUA + Functions.getMessage("welcome") + "§4§ki";
-		if (event.world.isRemote)
+		if (!event.world.isRemote){
 			event.entity.addChatMessage(new ChatComponentTranslation(EnumChatFormatting.BOLD + message));
+		}
+		if (event.entity instanceof EntityPlayer){
+			EntityPlayer player = (EntityPlayer) event.entity;
+			if (!player.inventory.hasItem(ModAItems.contributor_book)){
+			player.inventory.addItemStackToInventory(new ItemStack(ModAItems.contributor_book));
+			}
+		}
 	}
 	@SubscribeEvent
 	public void playerAttackEvent(AttackEntityEvent event) {

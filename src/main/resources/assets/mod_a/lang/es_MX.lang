@@ -1,0 +1,168 @@
+<es_MX.lang for ModA made by SirBlobman>
+
+<Dark Items>
+item.dark_item.name=§8Elemento Oscuro§f
+item.sliced_bread.name=Pan Rebanado
+item.dark_ingot.name=Lingote Oscuro
+item.dark_and_ender.name=Cubo de §8Elemento Oscuro§f y Perla de Ender
+item.dark_rod.name=Barra Oscuro
+item.dark_substance_bucket.name=Cubo de Sustancia Oscuro
+item.dark_ingot_bucket.name=Cubo con Lingote Oscuro
+
+<Misc>
+itemGroup.tabModA=Modificatión A
+mod_a.message.welcome=Disfrute la versi?n 1.2 de Modificaci?n A
+mod_a.message.dark.table.generate=usted recibio
+mod_a.message.plural.grammar=s
+mod_a.message.dark.table.warning.1=Nadamas esta Aire en la Mesa Oscura
+mod_a.message.warning.need=Necesitas un
+mod_a.message.warning.need.Usted necesita un
+mod_a.message.ingot=Lingote
+mod_a.message.item.not_working=Este ?tem no funciona
+mod_a.message.book.contributor.header=Las personas incre?bles que han contribuido a la modificaci?n A
+
+<Dark Tools>
+item.dark_axe.name=Hacha Oscuro
+item.dark_hoe.name=Azada Oscuro
+item.dark_sword.name=Espada Oscuro
+item.dark_shovel.name=Pala Oscuro
+item.dark_pickaxe.name=Piqueta Oscuro
+
+<Dark Blocks>
+tile.dark_block.name=Bloque Oscuro
+tile.dark_table.name=Mesa Oscuro
+
+<Sandwich>
+item.toast.name=Pan Tostado
+item.cheese.name=Queso
+item.cheese_slice.name=Pedazo de Queso
+item.cheese_sandwich.name=Sándwich de Queso
+item.toast_cheese_sandwich.name=Sándwich de Quesso Tostado
+item.grilled_cheese.name=Queso a la Parilla
+
+<Dark Armour>
+item.dark_helmet.name=Yelmo Oscuro
+item.dark_chestplate.name=Pechera Oscuro
+item.dark_leggings.name=Grebas Oscuro
+item.dark_boots.name=Botas Oscuro
+
+<Specials>
+item.smiley_face.name=Cara Sonriente
+item.vampiric_sword.name=Espada Vampírica
+item.fedora.name=Fedora
+item.heart.name=Corazón
+item.lightning_rod.name=Vara de Relámpago
+item.information_retriever.name=Perdiguero de la Información
+item.insta_house.name=Casa-Insta
+item.ice_boots.name=Botas de Hielo
+item.ice_staff.name=Bastón de Hielo
+item.chat_box.name=Caja de Charla 3000
+item.invisibility_cloak.name=Manto de Invisibilidad
+item.fire_staff.name=Bastón de Fuego
+item.fire_jacket.name=Chaqueta de Fuego
+item.speed_boots.name=Botas de Velocidad
+item.candy_cane.name=Bastón de Caramelo
+item.ginger_bread.name=Pan de Jengibre
+tile.present.name=Regalo
+item.password_2.name=Contraseña
+item.automatic_bolt_blaster.name=Pistola de Cerrojo Automática
+item.encrypted_message.name=Mensaje Cifrada
+item.dark_bane.name=Perdición Oscuro
+item.venom_sword.name=Espada del Veneno
+item.hand_cannon.name=Cañón Manual
+item.undeads_bane.name=Daño de Muertos Viventes
+item.teleportation_rod.name=Vara de Teletrasportación
+item.cutlass.name=Chafarote
+item.aquatic_helmet.name=Casco Aquatica
+item.turkey_leg.name=pierna de pavo
+tile.present_toy.name=Regalo
+item.cola.name=Cola
+item.ender_punch.name=Ponche de Ender
+item.core.name=Centro de Creador de Lingotes
+item.dragon_soul.name=Alma de Dragon
+item.wither_soul.name=Alma de Wither
+tile.dragon_ingot_maker.name=Creador de Lingote de Dragon
+tile.wither_ingot_maker.name=Creador de Lingote de Wither
+item.glasses.name=Lentes
+item.shades.name=Gafas de Sol
+item.mob_lifter.name=Levantador de Entity
+item.insta_house_2.name=Casa-Insta 2
+item.insta_house_3.name=Casa-Insta 3
+tile.cave_game_cobblestone.name=Juego Cueva: Piedra Labrada
+tile.cave_game_dirt.name=Juego Cueva: Tierra
+item.insta_house_3.desc=Refugio de Nostalgia
+item.contributor_book.name=Libro de Ayudante
+item.contributor_book.desc=Ayudantes de Modificaci?n A
+item.top_hat.name=Gorra de Copa
+
+<Figures>
+tile.herobrine_figure.name=Figura de Herobrine
+tile.santa_figure.name=Figura de Santa
+tile.steve_figure.name=Figura de Steve
+tile.notch_figure.name=Figura de Notch
+tile.alex_figure.name=Figura de Alex
+tile.zombie_figure.name=Figure de Zombi
+tile.creeper_figure.name=Figura de Creeper
+
+<Records>
+item.deck.name=Disco de Navidad
+item.record.deck.desc=Deck The Halls
+item.jingle_bells.name=Disco de Navidad
+item.record.jingle_bells.desc=Jingle Bells
+item.wish.name=Disco de Navidad
+item.record.wish.desc=We Wish You a Merry Christmas
+
+<Knight Set>
+item.knight_sword.name=Espada de Caballero
+item.knight_helmet.name=Yelmo de Caballero
+item.knight_chestplate.name=Pechera de Caballero
+item.knight_leggings.name=Grebas de Caballero
+item.knight_boots.name=Botas de Caballero
+
+<Festive Set>
+item.festive_coat.name=Abrigo Festivo
+item.festive_pants.name=Panalones Festivo
+item.festive_boots.name=Botas Festivo
+
+<Reaper Set>
+item.schyte.name=Guadaña
+item.reaper_hood.name=Capucha de Reaper
+item.reaper_robes_up.name=Batas de Reaper (Arriba)
+item.reaper_robes_down.name=Batas de Reaper (Abajo)
+item.reaper_boots.name=Bots de Reaper
+
+<Soul Set>
+item.soul.name=Alma
+item.soul_sword.name=Espada de Alma
+item.soul_pickaxe.name=Piqueta de Alma
+item.soul_shovel.name=Pala de Alma
+item.soul_axe.name=Hacha de Alma
+item.soul_hoe.name=Azada de Alma
+item.soul_helmet.name=Yelmo de Alma
+item.soul_chestplate.name=Pechera de Alma
+item.soul_leggings.name=Grebas de Alma
+item.soul_boots.name=Botas de Alma
+
+<Dragon Set>
+item.dragon_ingot.name=Lingote de Dragon
+item.dragon_sword.name=Espada de Dragon
+item.dragon_axe.name=Hacha de Dragon
+item.dragon_pickaxe.name=Piqueta de Dragon
+item.dragon_shovel.name=Pala de Dragon
+item.dragon_hoe.name=Azada de Dragon
+item.dragon_helmet.name=Yelmo de Dragon
+item.dragon_chestplate.name=Pechera de Dragon
+item.dragon_leggings.name=Grebas de Dragon
+item.dragon_boots.name=Botas de Dragon
+
+<Wither Set>
+item.wither_ingot.name=Lingote de Wither
+item.wither_sword.name=Espada de Wither
+item.wither_shovel.name=Pala de Wither
+item.wither_pickaxe.name=Piqueta de Wither
+item.wither_axe.name=Hacha de Wither
+item.wither_hoe.name=Azada de Wither
+item.wither_helmet.name=Yelmo de Wither
+item.wither_chestplate.name=Pechera de Wither
+item.wither_leggings.name=Grebas de Wither
+item.wither_boots.name=Botas de Wither
