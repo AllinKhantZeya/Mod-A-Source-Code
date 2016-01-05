@@ -34,6 +34,6 @@ public class TopHat extends ItemArmor {
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
          Potion potion = Potion.digSpeed;
-         Functions.addPotionEffectToPlayer(player, potion, 1, 2);
+         Functions.addPotionEffectToPlayer(player, potion, 1, 3);
 	}
 }

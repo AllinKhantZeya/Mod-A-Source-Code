@@ -5,25 +5,20 @@ import java.util.Random;
 import com.mod.mod_a.init.ModABlocks;
 import com.mod.mod_a.init.ModAItems;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagList;
-import net.minecraft.nbt.NBTTagString;
 import net.minecraft.potion.Potion;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.StatCollector;
+import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
@@ -31,8 +26,7 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.AttackEntityEvent;
 import net.minecraftforge.event.entity.player.UseHoeEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent;
 
 public class ModAEventHandler {
 
@@ -76,16 +70,17 @@ public class ModAEventHandler {
 	@SubscribeEvent
 	public void playerJoinEvent(EntityJoinWorldEvent event) {
 		String message = "§4§ki" + EnumChatFormatting.DARK_AQUA + Functions.getMessage("welcome") + "§4§ki";
-		if (!event.world.isRemote){
+		if (!event.world.isRemote) {
 			event.entity.addChatMessage(new ChatComponentTranslation(EnumChatFormatting.BOLD + message));
 		}
-		if (event.entity instanceof EntityPlayer){
+		if (event.entity instanceof EntityPlayer) {
 			EntityPlayer player = (EntityPlayer) event.entity;
-			if (!player.inventory.hasItem(ModAItems.contributor_book)){
-			player.inventory.addItemStackToInventory(new ItemStack(ModAItems.contributor_book));
+			if (!player.inventory.hasItem(ModAItems.contributor_book)) {
+				player.inventory.addItemStackToInventory(new ItemStack(ModAItems.contributor_book));
 			}
 		}
 	}
+
 	@SubscribeEvent
 	public void playerAttackEvent(AttackEntityEvent event) {
 		if (event.target instanceof EntityLivingBase) {
@@ -142,25 +137,25 @@ public class ModAEventHandler {
 				&& player.getCurrentEquippedItem().getItem() == ModAItems.dark_hoe) {
 			if (worldIn.getBlockState(pos) == Blocks.dirt.getDefaultState().withProperty(VARIANT,
 					BlockDirt.DirtType.DIRT) || worldIn.getBlockState(pos).getBlock() == Blocks.grass) {
-				if (worldIn.getBlockState(pos.up()).getBlock().getMaterial() == Material.air){
-				switch (number) {
-				case 0:
-					Functions.spawnItemOnBlock(worldIn, Items.wheat_seeds, 1, pos);
-					break;
-				case 1:
-					Functions.spawnItemOnBlock(worldIn, Items.melon_seeds, 1, pos);
-					break;
-				case 2:
-					Functions.spawnItemOnBlock(worldIn, Items.pumpkin_seeds, 1, pos);
-					break;
-				case 3:
-					Functions.spawnItemOnBlock(worldIn, Items.potato, 1, pos);
-					break;
-				case 4:
-					Functions.spawnItemOnBlock(worldIn, Items.carrot, 1, pos);
-					break;
+				if (worldIn.getBlockState(pos.up()).getBlock().getMaterial() == Material.air) {
+					switch (number) {
+					case 0:
+						Functions.spawnItemOnBlock(worldIn, Items.wheat_seeds, 1, pos);
+						break;
+					case 1:
+						Functions.spawnItemOnBlock(worldIn, Items.melon_seeds, 1, pos);
+						break;
+					case 2:
+						Functions.spawnItemOnBlock(worldIn, Items.pumpkin_seeds, 1, pos);
+						break;
+					case 3:
+						Functions.spawnItemOnBlock(worldIn, Items.potato, 1, pos);
+						break;
+					case 4:
+						Functions.spawnItemOnBlock(worldIn, Items.carrot, 1, pos);
+						break;
+					}
 				}
-			}
 			}
 		}
 	}

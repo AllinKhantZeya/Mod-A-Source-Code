@@ -68,8 +68,7 @@ public class GuiContributorBook extends GuiScreen {
 		Keyboard.enableRepeatEvents(true);
 
 		int bookLeft = (width-BOOK_WIDTH)/ 2;
-		done = new GuiButton(0, this.width / 2 + 2, 4 + this.BOOK_HEIGHT, 98, 20,
-				I18n.format("gui.done", new Object[0]));
+		done = new GuiButton(0, this.width / 2 - 100, 4 + this.BOOK_HEIGHT, 200, 20, I18n.format("gui.done", new Object[0]));
 		next = new PageButton(1, bookLeft + 120, 156, true);
 		previous = new PageButton(2, bookLeft + 38, 156, false);
 		buttonList.add(done);

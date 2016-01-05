@@ -21,6 +21,7 @@ import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -121,6 +122,12 @@ public class Functions {
 		{
 		player.addChatComponentMessage(new ChatComponentTranslation(colour + message));
 		}
+	}
+	public static void registerBlockX(Block block){
+		GameRegistry.registerBlock(block, block.getUnlocalizedName().substring(5));
+	}
+	public static void registerItemX(Item item){
+		GameRegistry.registerItem(item, item.getUnlocalizedName().substring(5));
 	}
     @SideOnly(Side.CLIENT)
     public static String getItemDescription(Item item)

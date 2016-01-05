@@ -74,7 +74,7 @@ public class ChatBox extends Item{
 		case 20: Functions.tellPlayer(playerIn, "Good thing villagers don't ask for tax.", worldIn);
 				break;
 		case 21: Functions.tellPlayer(playerIn, "Listen to this nice tune.", worldIn);
-				worldIn.playSoundAtEntity(playerIn, "records.blocks", 1, 1);
+				worldIn.playRecord(playerIn.getPosition(), "records.blocks");
 				break;
 		case 22: if(playerIn.getHealth() < 2)
 				{

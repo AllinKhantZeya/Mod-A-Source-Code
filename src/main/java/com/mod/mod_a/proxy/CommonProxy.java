@@ -13,4 +13,7 @@ public class CommonProxy {
 	public void openGuiContributor(){
 		
 	}
+	public void openGuiGuide(){
+		
+	}
 }

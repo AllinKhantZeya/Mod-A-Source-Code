@@ -1,5 +1,6 @@
 package com.mod.mod_a.init;
 
+import com.mod.mod_a.Functions;
 import com.mod.mod_a.ModA;
 import com.mod.mod_a.Reference;
 import com.mod.mod_a.blocks.DarkBlock;
@@ -7,6 +8,7 @@ import com.mod.mod_a.blocks.DarkTable;
 import com.mod.mod_a.blocks.DragonIngotMaker;
 import com.mod.mod_a.blocks.Figure;
 import com.mod.mod_a.blocks.GenericBlock;
+import com.mod.mod_a.blocks.LightSource;
 import com.mod.mod_a.blocks.Present;
 import com.mod.mod_a.blocks.PresentToy;
 import com.mod.mod_a.blocks.WitherIngotMaker;
@@ -36,6 +38,7 @@ public class ModABlocks {
 	public static Block wither_ingot_maker;
 	public static Block cave_game_cobblestone;
 	public static Block cave_game_dirt;
+	public static Block light_source;
 
 	public static void init() {
 		dark_block = new DarkBlock(Material.rock).setUnlocalizedName("dark_block").setHardness(4.0F);
@@ -57,6 +60,7 @@ public class ModABlocks {
 				.setHardness(2.0F).setStepSound(Block.soundTypeStone);
 		cave_game_dirt = new GenericBlock(Material.ground).setUnlocalizedName("cave_game_dirt")
 				.setHardness(0.5F).setStepSound(Block.soundTypeGrass);
+		light_source = new LightSource(Material.air).setUnlocalizedName("light_source");
 	}
 
 	public static void register() {
@@ -75,6 +79,7 @@ public class ModABlocks {
 		registerBlock(wither_ingot_maker);
 		registerBlock(cave_game_cobblestone);
 		registerBlock(cave_game_dirt);
+		Functions.registerBlockX(light_source);
 	}
 
 	public static void registerRenders() {

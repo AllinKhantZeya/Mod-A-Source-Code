@@ -2,9 +2,12 @@ package com.mod.mod_a;
 
 import com.mod.mod_a.init.ModABlocks;
 import com.mod.mod_a.init.ModAItems;
+import com.mod.mod_a.init.ModATileEntities;
 import com.mod.mod_a.ModATab;
 import com.mod.mod_a.proxy.CommonProxy;
+import com.mod.mod_a.tileentity.TileEntityLightSource;
 
+import net.minecraft.client.resources.Language;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
@@ -42,6 +45,7 @@ public class ModA {
 		FMLCommonHandler.instance().bus().register(eventHandler);
 		MinecraftForge.EVENT_BUS.register(eventHandler);
 		GameRegistry.registerFuelHandler(new ModAFuelHandler());
+		ModATileEntities.register();
 	}
 	
 	@EventHandler

@@ -1,9 +1,11 @@
 package com.mod.mod_a.init;
 
+import com.mod.mod_a.Functions;
 import com.mod.mod_a.ModA;
 import com.mod.mod_a.Reference;
 import com.mod.mod_a.Items.AquaticHelmet;
 import com.mod.mod_a.Items.AutomaticBoltBlaster;
+import com.mod.mod_a.Items.BlackBook;
 import com.mod.mod_a.Items.CandyCane;
 import com.mod.mod_a.Items.ChatBox;
 import com.mod.mod_a.Items.ContributorBook;
@@ -19,6 +21,7 @@ import com.mod.mod_a.Items.Fedora;
 import com.mod.mod_a.Items.FestiveSuit;
 import com.mod.mod_a.Items.FireJacket;
 import com.mod.mod_a.Items.FireStaff;
+import com.mod.mod_a.Items.FlashLight;
 import com.mod.mod_a.Items.GenericRecord;
 import com.mod.mod_a.Items.GingerBread;
 import com.mod.mod_a.Items.Glasses;
@@ -182,6 +185,9 @@ public class ModAItems {
 	public static Item insta_house_3;
 	public static Item contributor_book;
 	public static Item top_hat;
+	public static Item flashlight_off;
+	public static Item flashlight_on;
+	public static Item black_book;
 
 	public static void init() {
 		// Generic Items
@@ -306,6 +312,9 @@ public class ModAItems {
 		insta_house_3 = new InstaHouse3().setUnlocalizedName("insta_house_3");
 		contributor_book = new ContributorBook().setUnlocalizedName("contributor_book");
 		top_hat = new TopHat(ArmorMaterial.GOLD, 0, 0).setUnlocalizedName("top_hat");
+		flashlight_off = new FlashLight().setUnlocalizedName("flashlight_off");
+		flashlight_on = new FlashLight().setUnlocalizedName("flashlight_on");
+		black_book = new BlackBook().setUnlocalizedName("black_book");
 	}
 
 	public static void register() {
@@ -425,6 +434,9 @@ public class ModAItems {
 		registerItem(insta_house_3);
 		registerItem(contributor_book);
 		registerItem(top_hat);
+		registerItem(flashlight_off);
+		Functions.registerItemX(flashlight_on);
+		registerItem(black_book);
 	}
 
 	public static void registerRenders() {
@@ -544,6 +556,9 @@ public class ModAItems {
 		registerRender(insta_house_3);
 		registerRender(contributor_book);
 		registerRender(top_hat);
+		registerRender(flashlight_off);
+		registerRender(flashlight_on);
+		registerRender(black_book);
 	}
 
 	public static void registerRender(Item item) {
