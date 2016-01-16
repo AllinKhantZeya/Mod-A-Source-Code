@@ -26,6 +26,7 @@ public class HandCannon extends Item {
 				fireBall.accelerationX = playerLook.xCoord * 0.1;
 				fireBall.accelerationY = playerLook.yCoord * 0.1;
 				fireBall.accelerationZ = playerLook.zCoord * 0.1;
+				worldIn.playSoundAtEntity(playerIn, "item.fireCharge.use", 1.0F, 1.0F);
 				worldIn.spawnEntityInWorld(fireBall);
 				if (!playerIn.capabilities.isCreativeMode) {
 					playerIn.inventory.consumeInventoryItem(Items.fire_charge);

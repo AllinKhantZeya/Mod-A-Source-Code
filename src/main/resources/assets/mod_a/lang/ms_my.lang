@@ -10,7 +10,7 @@ item.dark_ingot_bucket.name=Baldi dengan Jongkong Gelap
 
 <Misc>
 itemGroup.tabModA=§4Mod A
-mod_a.message.welcome=Menikmati versi 1.3 daripada Mod A.
+mod_a.message.welcome=Menikmati versi 1.4 daripada Mod A.
 mod_a.message.dark.table.generate=anda mendapat
 mod_a.message.plural.grammar=
 mod_a.message.dark.table.warning.1=Tiada apa-apa hendaklah di atas Meja Gelap tetapi udara.
@@ -166,6 +166,7 @@ tile.notch_figure.name=Bentuk Notch
 tile.alex_figure.name=Bentuk Alex
 tile.zombie_figure.name=Bentuk Zombie
 tile.creeper_figure.name=Bentuk Creeper
+tile.jeb_figure.name=Bentuk Jeb
 
 <Cakera-Cakera>
 item.deck.name=Cakera Krismas

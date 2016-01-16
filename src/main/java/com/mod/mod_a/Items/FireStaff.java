@@ -30,8 +30,9 @@ public class FireStaff extends Item{
 		fireBall.accelerationX = playerLook.xCoord * 0.1;
 		fireBall.accelerationY = playerLook.yCoord * 0.1;
 		fireBall.accelerationZ = playerLook.zCoord * 0.1;
+		worldIn.playSoundAtEntity(playerIn, "item.fireCharge.use", 1.0F, 1.0F);
 		worldIn.spawnEntityInWorld(fireBall);
-				stack.damageItem(1, playerIn);
+		stack.damageItem(1, playerIn);
 		}
 		return stack;	
     }
@@ -39,10 +40,7 @@ public class FireStaff extends Item{
 	public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker)
     {
 		EntityPlayer playerIn = attacker.getEntityWorld().getPlayerEntityByName(attacker.getName());
-		if(!playerIn.capabilities.isCreativeMode)
-		{
-			stack.damageItem(1, playerIn);
-		}
+		stack.damageItem(1, playerIn);
 		target.setFire(5);
 		return false;
     }

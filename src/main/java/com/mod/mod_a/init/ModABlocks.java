@@ -32,6 +32,7 @@ public class ModABlocks {
 	public static Block alex_figure;
 	public static Block zombie_figure;
 	public static Block creeper_figure;
+	public static Block jeb_figure;
 	public static Block present;
 	public static Block present_toy;
 	public static Block dragon_ingot_maker;
@@ -50,6 +51,7 @@ public class ModABlocks {
 		alex_figure = new Figure(Material.cloth).setUnlocalizedName("alex_figure");
 		zombie_figure = new Figure(Material.cloth).setUnlocalizedName("zombie_figure");
 		creeper_figure = new Figure(Material.cloth).setUnlocalizedName("creeper_figure");
+		jeb_figure = new Figure(Material.cloth).setUnlocalizedName("jeb_figure");
 		present = new Present(Material.cloth).setUnlocalizedName("present").setHardness(0.5F);
 		present_toy = new PresentToy(Material.cloth).setUnlocalizedName("present_toy").setHardness(0.5F);
 		dragon_ingot_maker = new DragonIngotMaker(Material.rock).setUnlocalizedName("dragon_ingot_maker")
@@ -73,6 +75,7 @@ public class ModABlocks {
 		registerBlock(alex_figure);
 		registerBlock(zombie_figure);
 		registerBlock(creeper_figure);
+		registerBlock(jeb_figure);
 		registerBlock(present);
 		registerBlock(present_toy);
 		registerBlock(dragon_ingot_maker);
@@ -92,6 +95,7 @@ public class ModABlocks {
 		registerRender(alex_figure);
 		registerRender(zombie_figure);
 		registerRender(creeper_figure);
+		registerRender(jeb_figure);
 		registerRender(present);
 		registerRender(present_toy);
 		registerRender(dragon_ingot_maker);

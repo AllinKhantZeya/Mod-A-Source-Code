@@ -20,6 +20,7 @@ public class IceStaff extends Item{
 	{
 		playerIn.swingItem();
 		stack.damageItem(1, playerIn);
+		worldIn.playSoundAtEntity(playerIn, "random.bow", 1.0F, 1.0F);
 		 if (!worldIn.isRemote)
 	        {
 	            worldIn.spawnEntityInWorld(new EntitySnowball(worldIn, playerIn));

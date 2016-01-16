@@ -32,7 +32,7 @@ public class GuiContributorBook extends GuiScreen {
 		bookTextures[1] = new ResourceLocation(Reference.MOD_ID + ":" + "textures/gui/contributor_book_page.png");
 
 		text[0] = " ";
-		text[1] = Functions.getMessage("book.contributor.header") +"\n\nSirBlobman: es_MX.lang";
+		text[1] = Functions.getMessage("book.contributor.header") +"\n\nSirBlobman: es_MX.lang" + "\nCreeperism: Bug Report";
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class BlackBook extends Item{
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn)
     {
-		ModA.proxy.openGuiGuide();
+		ModA.proxy.openGui(1);
         return itemStackIn;
     }
 

@@ -18,13 +18,15 @@ public class AutomaticBoltBlaster extends Item {
 		if (playerIn.inventory.hasItem(Items.arrow)) {
 			stack.damageItem(1, playerIn);
 			if (!worldIn.isRemote) {
-				EntityArrow arrow = new EntityArrow(worldIn,
-						playerIn.getPosition().getX() + 0.5 + playerIn.getLookVec().xCoord,
-						playerIn.getPosition().getY() + 0.5 + 1 + playerIn.getLookVec().yCoord,
-						playerIn.getPosition().getZ() + playerIn.getLookVec().zCoord);
-				arrow.motionX = playerIn.getLookVec().xCoord * 1.40;
-				arrow.motionY = playerIn.getLookVec().yCoord * 1.40;
-				arrow.motionZ = playerIn.getLookVec().zCoord * 1.40;
+				double x = playerIn.posX + playerIn.getLookVec().xCoord * 2.0,
+					   y = playerIn.posY + playerIn.getLookVec().yCoord * 2.0,
+					   z = playerIn.posZ + playerIn.getLookVec().zCoord * 2.0;
+				EntityArrow arrow = new EntityArrow(worldIn, x, y + 1, z);
+				arrow.motionX = playerIn.getLookVec().xCoord * 2.0;
+				arrow.motionY = playerIn.getLookVec().yCoord * 2.0;
+				arrow.motionZ = playerIn.getLookVec().zCoord * 2.0;
+				arrow.canBePickedUp = (!playerIn.capabilities.isCreativeMode) ? 1 : 2;
+				worldIn.playSoundAtEntity(playerIn, "random.bow", 1.0F, 1.0F);
 				worldIn.spawnEntityInWorld(arrow);
 				if (!playerIn.capabilities.isCreativeMode) {
 					playerIn.inventory.consumeInventoryItem(Items.arrow);
@@ -32,8 +34,8 @@ public class AutomaticBoltBlaster extends Item {
 			}
 			return stack;
 		} else {
-			Functions.tellPlayer(playerIn, EnumChatFormatting.DARK_RED + Functions.getMessage("warning.need.vowel") + " "
-					+ Items.arrow.getItemStackDisplayName(new ItemStack(Items.arrow)), worldIn);
+			Functions.tellPlayer(playerIn, EnumChatFormatting.DARK_RED + Functions.getMessage("warning.need.vowel")
+					+ " " + Items.arrow.getItemStackDisplayName(new ItemStack(Items.arrow)), worldIn);
 		}
 		return stack;
 	}

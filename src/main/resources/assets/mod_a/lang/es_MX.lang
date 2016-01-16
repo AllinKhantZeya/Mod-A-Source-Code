@@ -11,7 +11,7 @@ item.dark_ingot_bucket.name=Cubo con Lingote Oscuro
 
 <Misc>
 itemGroup.tabModA=Modificatión A
-mod_a.message.welcome=Disfrute la versi?n 1.3 de Modificaci?n A
+mod_a.message.welcome=Disfrute la versi?n 1.4 de Modificaci?n A
 mod_a.message.dark.table.generate=usted recibio
 mod_a.message.plural.grammar=s
 mod_a.message.dark.table.warning.1=Nadamas esta Aire en la Mesa Oscura
@@ -103,6 +103,7 @@ tile.notch_figure.name=Figura de Notch
 tile.alex_figure.name=Figura de Alex
 tile.zombie_figure.name=Figure de Zombi
 tile.creeper_figure.name=Figura de Creeper
+tile.jeb_figure.name=Figura de Jeb
 
 <Records>
 item.deck.name=Disco de Navidad

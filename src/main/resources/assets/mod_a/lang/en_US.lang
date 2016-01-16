@@ -10,7 +10,7 @@ item.dark_ingot_bucket.name=Bucket with Dark Ingot
 
 <Misc>
 itemGroup.tabModA=§4Mod A
-mod_a.message.welcome=Enjoy Version 1.3 of Mod A.
+mod_a.message.welcome=Enjoy Version 1.4 of Mod A.
 mod_a.message.dark.table.generate=you got
 mod_a.message.plural.grammar=s
 mod_a.message.dark.table.warning.1=There must be nothing but air on the Dark Table.
@@ -166,6 +166,7 @@ tile.notch_figure.name=Notch Figure
 tile.alex_figure.name=Alex Figure
 tile.zombie_figure.name=Zombie Figure
 tile.creeper_figure.name=Creeper Figure
+tile.jeb_figure.name=Jeb Figure
 
 <Records>
 item.deck.name=Christmas Disc

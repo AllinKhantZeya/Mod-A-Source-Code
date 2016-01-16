@@ -3,17 +3,8 @@ package com.mod.mod_a;
 import com.mod.mod_a.init.ModABlocks;
 import com.mod.mod_a.init.ModAItems;
 import com.mod.mod_a.init.ModATileEntities;
-import com.mod.mod_a.ModATab;
 import com.mod.mod_a.proxy.CommonProxy;
-import com.mod.mod_a.tileentity.TileEntityLightSource;
 
-import net.minecraft.client.resources.Language;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;

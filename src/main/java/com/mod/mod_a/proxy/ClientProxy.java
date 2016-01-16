@@ -15,11 +15,12 @@ public class ClientProxy extends CommonProxy{
 		ModABlocks.registerRenders();
 	}
 	@Override
-	public void openGuiContributor(){
-		Minecraft.getMinecraft().displayGuiScreen(new GuiContributorBook());
-	}
-	@Override
-	public void openGuiGuide(){
-		Minecraft.getMinecraft().displayGuiScreen(new GuiBlackBook());
+	public void openGui(int id){
+		switch (id){
+		case 0: Minecraft.getMinecraft().displayGuiScreen(new GuiContributorBook());
+				break;
+		case 1: Minecraft.getMinecraft().displayGuiScreen(new GuiBlackBook());
+				break;
+		}
 	}
 }

@@ -17,7 +17,7 @@ public class ContributorBook extends Item{
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn)
     {
-		ModA.proxy.openGuiContributor();
+		ModA.proxy.openGui(0);
         return itemStackIn;
     }
 	@Override

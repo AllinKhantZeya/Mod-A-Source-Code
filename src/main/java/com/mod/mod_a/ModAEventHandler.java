@@ -78,6 +78,9 @@ public class ModAEventHandler {
 			if (!player.inventory.hasItem(ModAItems.contributor_book)) {
 				player.inventory.addItemStackToInventory(new ItemStack(ModAItems.contributor_book));
 			}
+			if (!player.inventory.hasItem(ModAItems.black_book)) {
+				player.inventory.addItemStackToInventory(new ItemStack(ModAItems.black_book));
+			}
 		}
 	}
 
